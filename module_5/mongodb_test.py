@@ -4,9 +4,9 @@ from pymongo import MongoClient
 
 client = MongoClient("mongodb+srv://admin:admin@cluster0.kirb2v7.mongodb.net/?retryWrites=true&w=majority")
 
-db = client["pytech"]
+db = client.pytech
 
-collection = db["students"]
+collection = db.students
 
 print(db.list_collection_names)
 

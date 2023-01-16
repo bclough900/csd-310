@@ -21,7 +21,7 @@ gandalf = {
 aragorn = {
     "student_id" : "1008",
     "first_name" : "Aragorn",
-    "last-name" : "Strider",
+    "last_name" : "Strider",
 }
 
 gimli = {
