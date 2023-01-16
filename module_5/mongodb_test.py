@@ -6,5 +6,7 @@ client = MongoClient("mongodb+srv://admin:admin@cluster0.kirb2v7.mongodb.net/?re
 
 db = client["pytech"]
 
+collection = db["students"]
+
 print(db.list_collection_names)
 
